@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">InventoryProjectApp</string>
+    <string name="name_of_product">Name of the product: </string>
+    <string name="Quantity">Quantity: </string>
+    <string name="button_increase">+</string>
+    <string name="button_decrease">-</string>
+    <string name="price_of_product">Price of product : </string>
+    <string name="order_button">ORDER</string>
+    <string name="list_item_products_name">Name of the product</string>
+    <string name="list_item_products_price">Price of product</string>
+    <string name="list_item_products_quantity">Quantity of product</string>
+    <string name="sale_button_text">SALE</string>
+    <string name="detail_insert_image">Insert Image</string>
+    <string name="eur_price"> EUR </string>
+    <string name="quantity_avaiable"> available to order</string>
+    <string name="toast_product_not_avaiable">Sorry, product is currently not avaiable</string>
+    <string name="add_new_item">Add new product</string>
+    <string name="edit_existing_item">Edit product</string>
+    <string name="email_supplier_edit">insertemail@email.com</string>
+    <string name="empty_quantity_toast">Please insert quantity of product</string>
+    <string name="new_product_insert">Insert new product</string>
+    <string name="add_editor_menu">Add</string>
+    <string name="delete_editor_menu">Delete</string>
+    <string name="toast_no_action">No action</string>
+    <!-- Toast message when new product was successfully inserted -->
+    <string name="toast_succesfull">Succesfuly added new product</string>
+    <!-- Toast message when failed to insert new product -->
+    <string name="toast_failed">Error with saving product!</string>
+    <!-- Toast message when successfully updated an existing product -->
+    <string name="toast_update_succesfull">Product successfully updated!</string>
+    <!-- Toast message when failed to update an existing product -->
+    <string name="toast_failed_update">Error with updating product!</string>
+    <!-- Toast message when successfully deleted an existing product -->
+    <string name="toast_succesfull_delete">Product successfully deleted!</string>
+    <!-- Toast message when failed to delete -->
+    <string name="toast_unsucessfull_delete">Cant delete product</string>
+    <!-- WARNING toast message to notify user that quantity cannot be less than zero (stop pushing "-" button :) ) -->
+    <string name="toast_quantity_invalid">Quantity cannot be less than 0</string>
+    <!-- WARNING toast message to notify user that quantity modifier cannot be empty in order to work -->
+    <string name="tast_invalid_quantity_modification">Modifier is empty. Insert quantity first. </string>
+    <!-- WARNING toast message to notify user that product name cannot be left empty -->
+    <string name="toast_invalid_name">Please input a valid name</string>
+    <!-- WARNING toast message to notify user that quantity cannot be left 0 in order to add new product -->
+    <string name="toast_invalid_quality_insert">Please input a valid quantity</string>
+    <!-- WARNING toast message to notify user that price field cannot be left empty -->
+    <string name="toast_invalid_price_empty">Please input a valid price</string>
+    <!-- WARNING toast message to notify user that image have to be added in order to add new product -->
+    <string name="toast_no_image_added">Please input a valid image</string>
+    <!-- WARNING toast message to notify user that the product is out of stock -->
+    <string name="toast_out_of_stock">Product is out of stock</string>
+    <!-- ________________________ Alert dialog messages ________________________ -->
+    <!-- ALERT dialog message so the user do not accidentally delete product -->
+    <string name="product_delete">You are about to delete this product! Are you sure?</string>
+    <!-- ALERT dialog delete product option -->
+    <string name="delete">Delete</string>
+    <!-- ALERT dialog cancel deletion product option (also used when there are unsaved changes) -->
+    <string name="cancel">Cancel</string>
+    <!-- ALERT dialog option "Yes" used to make sure the user wants to leave when there are some unsaved changes to the product  -->
+    <string name="yes">Yes</string>
+    <!-- ALERT dialog message to notify user for unsaved changes -->
+    <string name="leave_without_save">You have unsaved changes. Are you sure you want to leave?</string>
+
+</resources>

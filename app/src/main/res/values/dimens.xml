@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="details_activity_paddings">10dp</dimen>
+    <dimen name="details_activity_layout_paddings">20dp</dimen>
+    <dimen name="sale_button_margin">20dp</dimen>
+</resources>
